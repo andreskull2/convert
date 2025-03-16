@@ -15,3 +15,6 @@ Neste vídeo é mostrado como criar um arquivo JavaScript, conectá-lo ao HTML e
 
 Obtendo o valor digitado
 Neste trecho da aula, foi abordado como recuperar o valor digitado em um input HTML utilizando JavaScript. Foi mostrado o código HTML do input, explicado como acessar o elemento pelo id e como capturar o valor inserido pelo usuário. Foi utilizado o método addEventListener para observar as interações do usuário no input e exibir o conteúdo digitado no console.
+
+Validando o input
+Neste trecho, é abordado o processo de garantir que um input aceite apenas números, utilizando expressões regulares para remover caracteres de texto. A expressão regular é utilizada com o método replace para substituir os caracteres indesejados por nada, permitindo assim que o input contenha apenas números. Essa técnica é demonstrada com um exemplo prático, mostrando como o conteúdo do input é atualizado sem os caracteres de texto, garantindo que apenas números sejam aceitos.
