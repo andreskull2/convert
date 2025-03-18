@@ -35,3 +35,6 @@ Nesta aula, aprendemos a calcular o total dinamicamente em um código JavaScript
 
 Formatando o total
 Neste trecho da aula, foi demonstrado o uso de interpolação para adicionar texto, substituir caracteres e formatar corretamente a exibição dos valores. Além disso, foi mostrado como verificar se um valor é um número e como interromper a execução do código caso não seja. Também foi apresentado o uso de funções personalizadas para formatar valores de forma mais eficiente.
+
+Testando tudo
+Vamos testar a aplicação para garantir seu funcionamento. Digitamos o valor desejado, como 700 dólares. Ao clicar em converter, o resultado é exibido corretamente, mostrando o valor em reais. Testamos com euros e libras, e a aplicação funcionou perfeitamente, atualizando os valores conforme a moeda selecionada. Assim, concluímos o projeto com sucesso.
