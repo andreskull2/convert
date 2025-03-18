@@ -32,3 +32,6 @@ Neste trecho da aula, aprendemos a criar uma função em JavaSript para formatar
 
 Exibindo O total
 Nesta aula, aprendemos a calcular o total dinamicamente em um código JavaScript. Foi criada uma variável para armazenar o total, que é calculado multiplicando o Amount pelo Price. O resultado é exibido na página usando o método GetElementByID. O próximo passo será formatar o resultado.
+
+Formatando o total
+Neste trecho da aula, foi demonstrado o uso de interpolação para adicionar texto, substituir caracteres e formatar corretamente a exibição dos valores. Além disso, foi mostrado como verificar se um valor é um número e como interromper a execução do código caso não seja. Também foi apresentado o uso de funções personalizadas para formatar valores de forma mais eficiente.
