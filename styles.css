@@ -9,51 +9,33 @@
     font-size: 1rem;
 }
 
-::-webkit-scrollbar {
-    width: 0.5rem;
-}
-
-::-webkit-scrollbar-track {
-    background-color: #1f2151;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #2f3279;
-}
-
 body {
     width: 100%;
     height: 100vh;
-
     background-image: url("./img/bg.png");
     background-size: contain;
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
     gap: 3.12rem;
-
     color: #f1f2f6;
 }
 
 main {
     width: 90%;
     max-width: 375px;
-    min-width: 320px; /* Define uma largura mínima para telas muito pequenas */
+    min-width: 320px;
     border-radius: 1.5rem;
-
     border: 1px solid #2f3279;
     overflow-y: hidden;
+    background-color: #141534;
+    margin: 0 1rem;
 }
 
 form {
-    background-color: #141534;
-
     display: flex;
     flex-direction: column;
-
     padding: 3.5rem 4rem;
 }
 
@@ -68,29 +50,24 @@ label {
 input,
 select {
     outline: 0;
-
     color: #f1f2f6;
     border: 1px solid #1f2151;
     border-radius: 0.5rem;
-
     background-color: #0e0f25;
-    padding: 1.25rem 1rem;
-
+    padding: 1rem; /* Reduzindo o padding lateral */
     font-family: "Inter", sans-serif;
     font-size: 1rem;
+    margin-bottom: 1rem; /* Espaço inferior entre os campos */
 }
 
 select {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-
     background: url("./img/chevron-down.svg") no-repeat;
     background-position: calc(100% - 0.75rem) center !important;
     background-color: #0e0f25;
-
     cursor: pointer;
-    font-size: 1rem;
 }
 
 input::placeholder,
@@ -106,20 +83,15 @@ select:focus {
 
 button {
     height: 3.25rem;
-
     background-color: #2f34ab;
-
     border: none;
     border-radius: 0.5rem;
-
     color: #f1f2f6;
-
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.2s;
-
     margin-top: 3rem;
     outline: 0;
 }
@@ -136,10 +108,8 @@ footer {
     background-color: #1f2151;
     padding: 2.5rem;
     max-height: 196px;
-
     text-align: center;
     display: none;
-
     overflow-x: scroll;
 }
 
@@ -161,4 +131,31 @@ footer h1 {
     font-size: 2rem;
     line-height: 3rem;
     word-break: break-all;
+}
+
+/* Media Query para telas pequenas */
+@media (max-width: 375px) {
+    main {
+        padding: 2rem 1rem; /* Ajustando o padding para telas pequenas */
+        border-radius: 1rem; /* Manter as bordas arredondadas */
+        margin: 0 0.5rem; /* Aumentando o espaço externo para não ficar apertado */
+    }
+
+    form {
+        padding: 2rem 2rem; /* Ajustando o padding interno do formulário */
+    }
+
+    input,
+    select {
+        padding: 0.875rem; /* Reduzindo ainda mais o padding para campos */
+    }
+
+    button {
+        font-size: 0.875rem; /* Ajustando o tamanho da fonte para botões em telas menores */
+    }
+
+    footer {
+        padding: 1.5rem;
+        font-size: 0.875rem;
+    }
 }
