@@ -39,6 +39,7 @@ body {
 }
 
 main {
+    width: 90%; /* A largura será 90% da largura da tela */
     width: 480px;
     border-radius: 1.5rem;
 
