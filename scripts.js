@@ -38,7 +38,7 @@ function convertCurrency(amount, price, symbol){
   try {
     // Aplica a classe que exibe o footer para mostrar o resultado
     footer.classList.add("show-result")
-  } catch (error) {
+  } catch {
     
     // Remove a classe do footer removendo ele da tela
     footer.classList.remove("show-result")
