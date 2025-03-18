@@ -39,8 +39,9 @@ body {
 }
 
 main {
-    width: 90%; /* A largura será 90% da largura da tela */
-    width: 480px;
+    width: 90%;
+    max-width: 375px;
+    min-width: 320px; /* Define uma largura mínima para telas muito pequenas */
     border-radius: 1.5rem;
 
     border: 1px solid #2f3279;
