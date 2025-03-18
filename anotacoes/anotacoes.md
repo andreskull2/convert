@@ -1,13 +1,10 @@
 Boas Vindas
-
 Nesta etapa, vamos adicionar JavaScript a um projeto JTML e CSS. Vamos desenvolver o JavaScript juntos, focando em aplicar o que foi aprendido anteriormente. Vamos unir tudo e colocar em prática. Na próxima aula, vou mostrar o projeto e começaremos a desenvolvê-lo juntos.
 
 Download do HTML e CSS
-
 Nesta aula, foi compartilhado um link para um repositório contendo um projeto base em HTML e CSS. O instrutor explicou como fazer o download do projeto, renomear pastas e executar o projeto no VSCode. O projeto consiste em um formulário para conversão de moedas, com um footer oculto que será exibido dinamicamente com JavaScript. Foi sugerido o uso da extensão Live Server para facilitar o desenvolvimento. O próximo passo será implementar as funcionalidades em JavaScript. 
 
 Conhecendo o projeto
-
 Nesta etapa, vamos implementar JavaScript em um projeto de conversão de moeda. O HTML e o CSS estão disponíveis para download. Vamos adicionar funcionalidades como a conversão de moedas, seleção de moedas e validação do campo de entrada. Recomendo adicionar essa aplicação ao seu portfolio. Vamos garantir que apenas números inteiros sejam aceitos no campo de valor. Nas próximas aulas, veremos como fazer todas essas funcionalidades com JavaScript. Vamos começar a desenvolver o JavaScript para essa aplicação.
 
 Criando o arquivo de script
@@ -26,3 +23,6 @@ Identificando a moeda
 Neste trecho da aula, foi abordado o processo de conversão de moedas em uma aplicação JavaScript. Foi criada uma função chamada convertCurrency que recebe três parâmetros: o valor total, o valor da moeda e o símbolo da moeda. Foi explicado o uso de constantes para definir os valores das moedas, facilitando a atualização futura. Foi utilizado um switch case para identificar a moeda selecionada e realizar a conversão correta.
 
 Neste trecho da aula, foi abordado como exibir dinamicamente o footer do projeto. Foi explicado como adicionar e remover classes no no elemento footer para exibi-lo ou ocultá-lo. Além disso, foi mencionado o uso do bloco try-catch para tratamento de erros e a importância de organizar o código de forma clara. O instrutor demonstrou como selecionar elementos do documento e como manipular classes CSS para controlar a exibição do footer. 
+
+Exibindo a cotação da moeda
+Neste trecho da aula, aprendemos a utilizar JavaScript para tornar as informações de uma página web dinâmicas. Foi mostrado como selecionar elementos do HTML usando IDs, manipular o conteúdo desses elementos e exibir valores de moedas de forma dinâmica. Foi explicado o uso da interpolação de strings para combinar variáveis com texto.
