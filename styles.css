@@ -11,7 +11,7 @@
 
 body {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("./img/bg.png");
     background-size: contain;
     display: flex;
@@ -20,7 +20,8 @@ body {
     flex-direction: column;
     gap: 3.12rem;
     color: #f1f2f6;
-    overflow-y: auto;
+    overflow-y: auto; /* Permite rolagem quando necessário */
+    padding: 2rem 0;
 }
 
 main {
@@ -29,16 +30,18 @@ main {
     min-width: 320px;
     border-radius: 1.5rem;
     border: 1px solid #2f3279;
-    overflow-y: auto; /* Garante que o conteúdo dentro de 'main' possa rolar */
-    max-height: 100vh; /* Não ultrapassa a altura da tela */
     background-color: #141534;
     margin: 0 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    padding: 3.5rem 4rem;
+    padding: 2rem;
 }
 
 label {
@@ -56,10 +59,11 @@ select {
     border: 1px solid #1f2151;
     border-radius: 0.5rem;
     background-color: #0e0f25;
-    padding: 1rem; /* Reduzindo o padding lateral */
+    padding: 1rem;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
-    margin-bottom: 1rem; /* Espaço inferior entre os campos */
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 select {
@@ -106,13 +110,15 @@ button:focus {
     outline: 1.5px solid #4a5dcd;
 }
 
+/* Footer ajustado para permitir visibilidade e rolagem */
 footer {
     background-color: #1f2151;
     padding: 2.5rem;
     max-height: 196px;
     text-align: center;
     display: none;
-    overflow-x: scroll;
+    overflow-y: auto; /* Garante que, caso necessário, role internamente */
+    width: 100%;
 }
 
 .show-result {
@@ -132,28 +138,28 @@ footer h1 {
     font-weight: 700;
     font-size: 2rem;
     line-height: 3rem;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 /* Media Query para telas pequenas */
 @media (max-width: 375px) {
     main {
-        padding: 2rem 1rem; /* Ajustando o padding para telas pequenas */
-        border-radius: 1rem; /* Manter as bordas arredondadas */
-        margin: 0 0.5rem; /* Aumentando o espaço externo para não ficar apertado */
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+        margin: 0 0.5rem;
     }
 
     form {
-        padding: 2rem 2rem; /* Ajustando o padding interno do formulário */
+        padding: 1.5rem;
     }
 
     input,
     select {
-        padding: 0.875rem; /* Reduzindo ainda mais o padding para campos */
+        padding: 0.875rem;
     }
 
     button {
-        font-size: 0.875rem; /* Ajustando o tamanho da fonte para botões em telas menores */
+        font-size: 0.875rem;
     }
 
     footer {
