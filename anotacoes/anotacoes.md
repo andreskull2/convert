@@ -39,3 +39,6 @@ Neste trecho da aula, foi demonstrado o uso de interpolação para adicionar tex
 
 ## Testando tudo
 Vamos testar a aplicação para garantir seu funcionamento. Digitamos o valor desejado, como 700 dólares. Ao clicar em converter, o resultado é exibido corretamente, mostrando o valor em reais. Testamos com euros e libras, e a aplicação funcionou perfeitamente, atualizando os valores conforme a moeda selecionada. Assim, concluímos o projeto com sucesso.
+
+## Testando validação de commits no github
+Este é um teste para valiudar os commits no github
