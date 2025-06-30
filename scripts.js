@@ -1,5 +1,5 @@
 // Cotação de moedas do dia.
-const USD = 5.45;    
+const USD = 5.43;    
 const EUR = 6.40; 
 const GBP = 7.46;
 
