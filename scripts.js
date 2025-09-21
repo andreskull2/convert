@@ -1,7 +1,7 @@
 // Cotação de moedas do dia.
-const USD = 5.32;    
-const EUR = 6.25; 
-const GBP = 7.17;
+const USD = 5.324;    
+const EUR = 6.254; 
+const GBP = 7.172;
 
 // Obtendo os elementos do formulário.
 const form = document.querySelector("form"); // formulário 
